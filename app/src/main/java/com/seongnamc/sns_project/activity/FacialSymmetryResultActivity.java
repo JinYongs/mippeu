@@ -31,7 +31,7 @@ public class FacialSymmetryResultActivity extends BasicActivity {
         faceView = findViewById(R.id.face_view);
         textView = findViewById(R.id.pointvalue);
         Glide.with(this).load(path).centerCrop().override(300).into(faceView);
-        textView.setText("100");
+        textView.setText(" 99 ");
     }
 
 
